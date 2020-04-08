@@ -53,3 +53,14 @@ class Student {
 		//TODO
 	}
 }
+class Faculty{
+	public List<Student> list
+	String name;
+
+	public String getName(){
+	return this.name;
+	}
+	public void setName(int n){
+	this.name=n;
+	}
+}
